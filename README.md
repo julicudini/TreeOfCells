@@ -2,7 +2,7 @@
 
 An important challenge in analysing single cell RNA sequencing (scRNAseq) data
 is the robust inference of trajectories between cell types. Current methods
-assign cells across a continnuous progression between end-point states. These
+assign cells across a continuous progression between end-point states. These
 techniques, however, assume all cell types along the continuum are present in
 the data, which, given their often transient nature, is unlikely. This program
 attempts to adapt existing  phylogenetic models for use with scRNAseq data to
