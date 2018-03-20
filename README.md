@@ -9,12 +9,12 @@ attempts to adapt existing  phylogenetic models for use with scRNAseq data to
 infer ancestral cell type trajectories where only discrete end-points are
 available.
 
-A zero-inflated negative binomial (ZINB) distribution was fitted to scRNAseq
+A zero-inflated negative binomial (ZINB) distribution is fitted to scRNAseq
 expression data in order to generate a mean dropout rate (d), mean expression
 level (mu), and dispersion (r) for each gene in a cell type. The
 Kullback-Leibler divergence between distributions for the same gene between
-cell-types was calculated and averaged across all genes to generate a pairwise
-cell-type comparison. A tree topology was generated from these
+cell-types is calculated and averaged across all genes to generate a pairwise
+cell-type comparison. A tree topology is generated from these
 pairwise-distances using the neighbour-joining inference method.
 
 ## Method
